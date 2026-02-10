@@ -1,0 +1,24 @@
+import java.util.*;
+public class SumOfNaturalNumWhile{
+	public static void main (String args[]){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int x=sc.nextInt();
+		int t=x;
+		if(x>0)
+		{
+			System.out.println("The sum of "+x+" natural numbers using formulae is "+((x*(x+1))/2));
+			int s=0;
+			while(x>=1)
+			{
+				s+=x;
+				x--;
+			}
+			System.out.println("The sum of "+t+" natural numbers using while loop is "+s);
+		}
+		else
+		{
+			System.out.println("The number "+x+" is not a natural number");
+		}
+    }
+}
