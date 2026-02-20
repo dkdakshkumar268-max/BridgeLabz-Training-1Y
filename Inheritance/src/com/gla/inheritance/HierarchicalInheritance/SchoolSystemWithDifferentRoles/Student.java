@@ -1,0 +1,7 @@
+class Student extends Person {
+    String grade;
+
+    void displayRole() {
+        System.out.println("Student");
+    }
+}

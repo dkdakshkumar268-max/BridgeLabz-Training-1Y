@@ -1,0 +1,7 @@
+class Manager extends Employee {
+    int teamSize;
+
+    void displayDetails() {
+        System.out.println(name + " " + id + " " + salary + " " + teamSize);
+    }
+}
